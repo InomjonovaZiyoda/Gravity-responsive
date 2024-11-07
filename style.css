@@ -1,0 +1,215 @@
+*{
+    font-family: "Arimo", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* navbar */
+.navbar-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-links{
+    display: flex;
+    gap: 60px;
+}
+
+.navbar-icon{
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-btn{
+    width: 100px;
+    height: 25px;
+    background-color: #F6762C;
+    color: white;
+    border: none;
+    display: none;
+}
+/* navbar end */
+
+/* header */
+.header{
+    width: 100%;
+    height: 600px;
+    background-image: url(image/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-text h1{
+    font-size: 59.88px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.header{
+    padding-top: 257px;
+}
+/* header end */
+
+/* kadastr */
+.head-container{
+    width: 1400px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 96px;
+}
+
+.kadastr-text h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.kadastr-box{
+    display: flex;
+    flex-direction: column;
+    width: 349px;
+    height: auto;
+    text-align: center;
+    gap: 40px;
+}
+
+.kadastr-box h2{
+    max-width: 340px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.kadastr-cards{
+    display: flex;
+    margin-top: 87px;
+}
+
+.suniy-cards{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 87px;
+}
+
+.futer-picture{
+    width: 100%;
+    height: 600px;
+    background-image: url(image/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+}
+/* kadastr end */
+
+/* footer */
+.footer{
+    padding: 86px 0px 86px 0px;
+   background-color: #EDF0F1;
+}
+
+.footer-all{
+    display: flex;
+    gap: 45px;
+}
+
+.footer-logo span{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-logo span p{
+    color: white;
+}
+
+.footer-logo i{
+    color: #F6762C;
+}
+.footer-links{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-icon h3{
+    color: white;
+}
+
+.footer-icon span .fa-facebook{
+    color: blue;
+}
+
+.footer-icon span .fa-twitter{
+    color: aqua;
+}
+
+.footer-icon span .fa-instagram{
+    color: pink;
+}
+
+.footer-icon span .fa-linkedin{
+    color: blue;
+}
+
+.footer-icon span{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 30px;
+}
+/* footer end */
+
+@media only screen and (max-width:768px){
+    .navbar-links{
+        display: none;
+    }
+
+    .navbar-icon{
+        display: none;
+    }
+
+    .kadastr-box{
+        width: 100%;
+        height: auto;
+        margin-top: 2rem;        
+    }
+
+    .kadastr-cards, .suniy-cards, .footer-all{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container{
+        width: 98%;
+    }
+
+    .head-container{
+        width: 98%;
+    }
+
+    .header-text h1{
+        font-size: 2rem;
+    }
+
+    .navbar-btn{
+        display: flex;
+    }
+}
